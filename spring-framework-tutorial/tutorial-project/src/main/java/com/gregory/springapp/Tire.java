@@ -2,7 +2,14 @@ package com.gregory.springapp;
 
 
 public class Tire {
+    // setter injection
     private String brand;
+
+    // Construction injection
+    // public Tire(String brand) {
+    //     super();
+    //     this.brand = brand;
+    // }
 
     public String getBrand() {
         return brand;
@@ -14,6 +21,6 @@ public class Tire {
 
     @Override
     public String toString(){
-        return "Tire [Brand=" +  brand + "]";
+        return "Tires are on the car";
     }
 }

@@ -31,10 +31,10 @@ public class App {
         // Larger Applications should use ApplicationContext
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         // vehicle needs to be specified in from an XML file
-        // Vehicle springObject = (Vehicle) context.getBean("bike");
-        // springObject.drive();
+        Car springObject = (Car) context.getBean("car");
+        springObject.drive();
 
-        Tire t = (Tire) context.getBean("tire");
-        System.out.println(t);
+        // Tire t = (Tire) context.getBean("tire");
+        // System.out.println(t);
     }
 }

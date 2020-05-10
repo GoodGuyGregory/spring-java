@@ -16,6 +16,7 @@
 
     <bean id="tire" class="com.gregory.springapp.Tire">
            <!-- allows for properties inside of the tire injected object-->
-        <property name="brand" value="MRF"></property>
+        <!-- <property name="brand" value="MRF"></property> -->
+        <!-- <constructor-arg value="Big-O"></constructor-arg> -->
     </bean>
 </beans>
