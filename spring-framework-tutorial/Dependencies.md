@@ -4,6 +4,8 @@
 
 ![Spring Project Structure](./img/projectstructure.png)
 
+**XML Configuration**
+
 [Beans Defintions and Placement](https://stackoverflow.com/questions/12893760/spring-cannot-find-bean-xml-configuration-file-when-it-does-exist) Beans must have a specified defintiion and a specific location for them spring.xml files to be placed.
 
 ```xml
@@ -15,3 +17,7 @@
     <bean id="vehicle" class="com.gregory.springapp.Car"></bean>
 </beans>
 ```
+
+**Annotation Configuration**
+
+There are additional configuration methods instead of XML such as Java configuration with
