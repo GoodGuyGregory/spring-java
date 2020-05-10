@@ -1,4 +1,4 @@
-app/Bike.class
-app/Car.class
-app/Vehicle.class
-app/App.class
+com/gregory/springapp/Car.class
+com/gregory/springapp/Vehicle.class
+com/gregory/springapp/App.class
+com/gregory/springapp/Bike.class

@@ -1,4 +1,4 @@
-package app;
+package com.gregory.springapp;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -29,8 +29,8 @@ public class App {
         // getBean is a method is from either BeanFactory or ApplicationContext
         // Small applications are for BeanFactory
         // Larger Applications should use ApplicationContext
-        ApplicationContext context = new ClassPathXmlApplicationContext();
-
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        // vehicle needs to be specified in from an XML file
         Vehicle springObject = (Vehicle) context.getBean("vehicle");
         springObject.drive();
     }

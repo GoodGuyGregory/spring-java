@@ -1,4 +1,4 @@
-package app;
+package com.gregory.springapp;
 
 public class Car implements Vehicle {
     public void drive() {
