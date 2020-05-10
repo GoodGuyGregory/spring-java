@@ -1,5 +1,7 @@
 ## Dependency Notes
 
+[Framework Tutorial](https://www.youtube.com/watch?v=If1Lw4pLLEo&t=1682s)
+
 ![Spring Project Structure](./img/projectstructure.png)
 
 [Beans Defintions and Placement](https://stackoverflow.com/questions/12893760/spring-cannot-find-bean-xml-configuration-file-when-it-does-exist) Beans must have a specified defintiion and a specific location for them spring.xml files to be placed.
