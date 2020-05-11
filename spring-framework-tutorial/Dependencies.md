@@ -21,3 +21,17 @@
 **Annotation Configuration**
 
 There are additional configuration methods instead of XML such as Java configuration with
+
+**XML vs Annotation Configurations**
+
+any code before version 2.5 requires XML implemetation for external dependencies and the newest versions of code after 2.5 allow for Annotation based configuration in their code bases
+
+These Keywords are
+
+`@Component` which allow for Component injection based on the annotation at the class header
+
+`@Autowired` which will grab components that are required for implementations of interfaces
+
+`@ComponentScan` allows for scanning of packages for depenencies that are required
+
+`@Qualifer` allows for default choices for choosing components
