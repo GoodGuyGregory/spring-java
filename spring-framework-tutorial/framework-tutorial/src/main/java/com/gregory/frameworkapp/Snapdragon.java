@@ -1,5 +1,8 @@
 package com.gregory.frameworkapp;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Snapdragon implements MobileProcessor {
     // implements the process method
     public void process() {
