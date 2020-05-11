@@ -1,12 +1,15 @@
 package com.gregory.frameworkapp;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component // Non qualified and decapitalized
 public class Samsung {
 
     @Autowired
+    // if two interface implementations are used this allows for specifications
+    @Qualifier("snapdragon")
     MobileProcessor cpu;
 
     public MobileProcessor getCpu() {
